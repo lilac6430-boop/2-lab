@@ -13,5 +13,12 @@ public class Main {
             int randomNumber = random.nextInt(100) + 1;
             System.out.println("Число " + (i + 1) + ": " + randomNumber);
         }
+        // Сортировка чисел
+        Arrays.sort(numbers);
+
+        System.out.println("\nОтсортированные числа:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Число " + (i + 1) + ": " + numbers[i]);
+        }
     }
 }
